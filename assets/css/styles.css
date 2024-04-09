@@ -1,0 +1,40 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F3F3F3;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 32px;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    cursor: default;
+}
+
+.navbar {
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+
+input {
+    background-color: gainsboro;
+    height: 40px;
+    width: 200px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
