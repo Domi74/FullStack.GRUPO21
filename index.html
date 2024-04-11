@@ -11,24 +11,32 @@
 
 <body>
     <header class="header">
-        <a href="#" class="logo"> <i class="fa-solid fa-shop"></i></a>
+        <a href="#" class="logo"> <i class="fa-solid fa-shop"></i> mercado</a>
 
-        <div class="container">
-            <form name="buscar" method="">
-                <input type="text" name="clave" id="buscar" placeholder="Buscar producto...">
-            </form>
-
-            <div class="carrito"><a href="#"><i class="fa-solid fa-cart-shopping"></i>Carrito</a></div>
-            <hr>
-            <div class="sesion"><a href="#"><i class="fa-solid fa-user"></i>Ingresar</a></div>
-
-        </div>
         <nav class="navbar">
-            <a href="#inicio" class="active">Inicio</a>
+            <a href="#" class="active">Inicio</a>
             <a href="#categorias">Categorias</a>
             <a href="#productos">Productos</a>
             <a href="#subscripcion">Subscribete</a>
         </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" class="box" placeholder="Buscar producto...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="carrito">
+            <div class="caja-carrito">
+            </div>
+        </div>
+
     </header>
 
     <main>
@@ -38,7 +46,44 @@
 
 
         <section id="categorias">
-            <div class="container">aca va las categorias (lacteos, carnes, frutas y verduras, limpieza)</div>
+            <div class="container">
+                <div class="contenedor_slider">
+                    <div id="banner_c_0" class="slick-slide">
+                        <a href=" ./almacen.html" target="_top">
+                            <img src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-gaseosas-eo2-junio.jpg"
+                                data-src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-gaseosas-eo2-junio.jpg"
+                                alt="almacen" title="almacen"></a>
+                    </div>
+
+                    <div id="banner_c_1" class="slick-slide">
+                        <a href="./bebidas.html" target="_top"><img
+                                src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-golosinas-eo2-junio.jpg"
+                                data-src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-golosinas-eo2-junio.jpg"
+                                alt="bebidas" title="bebidas"></a>
+                    </div>
+
+                    <div id="banner_c_2" class="slick-slide">
+                        <a href="./carniceria.html" target="_top"><img
+                                src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-snacks-eo2-junio.jpg"
+                                data-src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-snacks-eo2-junio.jpg"
+                                alt="carniceria" title="carniceria"></a>
+                    </div>
+
+                    <div id="banner_c_3" class="slick-slide">
+                        <a href="./frescos.html" target="_top"><img
+                                src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-cervezas-eo2-junio2.jpg"
+                                data-src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-cervezas-eo2-junio2.jpg"
+                                alt="frescos" title="frescos"></a>
+                    </div>
+
+                    <div id="banner_c_4" class="slick-slide">
+                        <a href="./limpieza.html" target="_top"><img
+                                src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-cervezas-eo2-junio2.jpg"
+                                data-src="https://d1on8qs0xdu5jz.cloudfront.net/web/images/banners/a/h-cervezas-eo2-junio2.jpg"
+                                alt="limpieza" title="limpieza"></a>
+                    </div>
+                </div>
+            </div>
         </section>
 
 
