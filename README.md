@@ -3,7 +3,7 @@
 
 ## Integrantes:
 - Loza Ruiz, Ever
-- 
+- Rodolfo Paz
 -
 -
 <!-- 
