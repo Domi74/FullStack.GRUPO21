@@ -1,9 +1,12 @@
 # FullStack.GRUPO21
-
-## FULLSTACK NODE:JS
 ![fsc-nodejs-1](https://github.com/Domi74/FullStack.GRUPO21/assets/59475438/19001ab2-cd81-42a9-94a2-22b292543054)
-)
 
+## Integrantes:
+- Loza Ruiz, Ever
+- 
+-
+-
+<!-- 
 ### HTML
 
 HTML es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. Se trata de la sigla que corresponde a HyperText Markup Language, es decir, Lenguaje de Marcas de Hipertexto, que podría ser traducido como Lenguaje de Formato de Documentos para Hipertexto.
@@ -191,4 +194,4 @@ Para añadir una imagen de fondo desde un link, y si está muy acercada usar la 
 		background-size: cover;
 	}
 ```
-
+ -->
